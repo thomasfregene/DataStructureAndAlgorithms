@@ -15,11 +15,18 @@ namespace DataStructuresAndAlgorithms.Algorithm
         {
             for (int i = objects.Length-1; i > 0; i--)
             {
-                int j = randomNumber.Next(i + 1);
-                object temp = objects[i];
-                objects[i] = objects[j];
-                objects[j] = temp;
+                int j = GetRandomNumber(i);
+                //swapping method
+                objects.SwapValueAtIndices(i, j);
+                //object temp = objects[i];
+                //objects[i] = objects[j];
+                //objects[j] = temp;
             }
+        }
+
+        private static int GetRandomNumber(int i)
+        {
+            return randomNumber.Next(i + 1);
         }
 
         public static void TestFisherYatesShuffler()

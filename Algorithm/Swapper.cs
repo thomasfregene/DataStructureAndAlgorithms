@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructuresAndAlgorithms.Algorithm
 {
-    public static class Swpper
+    public static class Swapper
     {
         public static void SwapValueAtIndices<T>(this T[] objects, int i, int j)
         {

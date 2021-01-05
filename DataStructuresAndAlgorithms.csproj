@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Algorithm\FisherYatesShuffler.cs" />
     <Compile Include="Algorithm\InsertionSorter.cs" />
-    <Compile Include="Algorithm\Swpper.cs" />
+    <Compile Include="Algorithm\Swapper.cs" />
     <Compile Include="LinkedList\LinkedListGenerics.cs" />
     <Compile Include="LinkedList\LinkedListTail.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
