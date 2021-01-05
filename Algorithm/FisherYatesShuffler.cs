@@ -15,12 +15,8 @@ namespace DataStructuresAndAlgorithms.Algorithm
         {
             for (int i = objects.Length-1; i > 0; i--)
             {
-                int j = GetRandomNumber(i);
                 //swapping method
-                objects.SwapValueAtIndices(i, j);
-                //object temp = objects[i];
-                //objects[i] = objects[j];
-                //objects[j] = temp;
+                objects.SwapValueAtIndices(i, GetRandomNumber(i));
             }
         }
 
